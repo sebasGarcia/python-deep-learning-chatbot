@@ -1,12 +1,12 @@
 {
   "intents": [
     {"tag": "greeting",
-     "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day", "Hey", "Ekse", "Hi"],
-     "responses": ["Hi stranger", "Yebo yes, how can I help", "Ey watsupp", "Ekse Hoezit", "Hola", "Hey dude", "You again"]
+     "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day", "Hey", "Hallo", "Hi"],
+     "responses": ["Hi stranger", "Que mas? bien o que?, how can I help","You good?", "Ey watsupp", "Que tal?", "Hola", "Hey dude", "You again"]
     },
     {"tag": "goodbye",
      "patterns": ["Bye", "See you later", "Goodbye", "Ok bye", "Bye Bye"],
-     "responses": ["See you!", "Have a nice day", "Sure Bye", "Later dude", "Sayoonara", "Peace out", "Sure dude", "Ciao"]
+     "responses": ["See you!", "Have a nice day", "Sure Bye", "Later dude", "Sayoonara", "Peace out", "Sure dude", "Ciao", "dag"]
     },
     {"tag": "thanks",
      "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
@@ -17,40 +17,64 @@
      "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand", "I am still here dude"]
      },
      {"tag": "name",
-      "patterns": ["What is your name", "Whats your name", "Tell me your name", "Who are you", "Ungubani", "Tell me about yourself", "You are"],
-      "responses": ["I am Karabo", "My name is Karabo", "You can call me KB for short", "I am Karabo, my friends call me KB", "Karabo is my name"]
+      "patterns": ["What is your name", "Whats your name", "Tell me your name", "Who are you", "Tell me about yourself", "You are"],
+      "responses": ["I am Barillete", "My name is Barrilete", "You can call me Barri for short", "I am Barrilete, my friends call me Barri", "Barri is my name"]
       },
       {"tag": "options",
        "patterns": ["What do you do", "How can you help", "What do you know", "What is your purpose", "How can you help"],
-       "responses": ["I can tell you about South Africa", "I can give you interesting facts about South Africa"]
+       "responses": ["I can tell you about Colombia", "I can give you interesting facts about Colombia"]
       },
-     {"tag": "south_africa_info",
-      "patterns": ["South Africa", "What can you tell me about SA", "SA", "Tell me about SA", "What about SA", "What do you know about SA", "Tell me more about SA", "What can you tell me about South Africa", "Tell me about South Africa", "What about South Africa", "What do you know about South Africa", "Tell me more about South Africa"],
-      "responses": ["South Africa is the southern most country in Africa, it has a population of more than 59million people and covers an area of 1221 037m2. South Africa has 11 official languages. The currency used in ZAR our South African Rand which trades at about 15ZAR per 1USD."]
+     {"tag": "colombia_info",
+      "patterns": ["Colombia", "What can you tell me about CO", "CO", "Tell me about CO", "What about CO", "What do you know about CO", "Tell me more about CO", "What can you tell me about Colombia", "Tell me about Colombia", "What about South Colombia", "What do you know about Colombia", "Tell me more about Colombia"],
+      "responses": ["Colombia, officially the Republic of Colombia, is a country in South America with an insular region in North America, . Colombia comprises 32 departments and the Capital District of Bogotá, the country's largest city. It covers an area of 1,141,748 square kilometers (440,831 sq mi), with a population of 50 million. Colombia's rich cultural heritage reflects influences by various Amerindian civilizations, European settlement, African slaves, as well as immigration from Europe and the Middle East. Spanish is the nation's official language, besides which over 70 languages are spoken. The currency used in COP or Colombian Peso."]
       },
-      {"tag": "south_africa_facts",
-       "patterns": ["South Africa Facts", "SA Facts", "Give me some facts about SA", "Give me some facts about South Africa", "SA Facts", "SA interesting facts", "South Africa facts", "South Africa interesting facts", "Tell me something interesting"],
+      {"tag": "colombia_facts",
+       "patterns": ["Colombian Facts", "CO Facts", "Give me some facts about CO", "Give me some facts about Colombia", "CO Facts", "CO interesting facts", "Colombia facts", "Colombia interesting facts", "Tell me something interesting"],
        "responses": [
-         "South Africa is now the only country in the world to have hosted the Soccer, Cricket and Rugby World Cup!",
-         "Table Mountain in Cape Town is believed to be one of the oldest mountains in the world and one of the planet’s 12 main energy centres, radiating magnetic, electric or spiritual energy.",
-         "The Cape Floral Kingdom is one of the world’s six floral kingdoms – and the only one which is wholly contained within a single country.",
-         "Some countries have deserts; some have subtropical forests, right? South Africa has: deserts, wetlands, grasslands, bush, subtropical forests, mountains and escarpments.",
-         "South Africa’s drinking water is rated 3rd best in the world for being safe and ready to drink.",
-         "Water is not all there is to drink in this thirsty country! South Africa’s Cape Winelands have around 560 wineries and 4 400 primary producers. Included in the Cape Winelands region is Route 62, considered the longest wine route in the world. That alone is good reason to visit South Africa if you haven’t yet been!",
-         "What about beer? South African brewery SABMiller ranks – by volume – as the largest brewing company in the world. Saffers love their beer…but the real reason the brewery is so big? SABMiller also supplies up to 50% of China’s beer.",
-         "South Africa is the only country in the entire world that has voluntarily abandoned its nuclear weapons programme.",
-         "The world’s largest themed resort hotel in the world – The Palace of the Lost City – is found in South Africa. Surrounding the Palace is a 25 hectare manmade botanical jungle with almost 2 million plants, trees and shrubs.",
-         "South Africa is extremely rich in mining and minerals and considered the world’s leader with nearly 90% of all the platinum metals on earth and around 41% of all the world’s Gold!",
-         "South Africa is home to the oldest meteor scar in the world – the Vredefort Dome in a town called Parys. The site is a UNESCO World Heritage Site.",
-         "The South African Rovos Rail is considered the most luxurious train in the world.",
-         "South Africa is home to the highest commercial bungi jump in the world at 710 feet.",
-         "General Motors South Africa is the only place outside of the USA to build the Hummer H3!",
-         "Despite the country’s status as a democratic republic, the Province of KwaZulu-Natal has a monarchy, specially provided for by the Constitution. Goodwill Zwelithini kaBhekuzulu is the King of the Zulu Nation, has 27 kids and 6 wives and lives, literally, like a King!",
-         "There are more than 2000 shipwrecks off the South African coast, most dating back at least 500 years.",
-         "The oldest remains of modern humans were found in South Africa and are well over 160,000 years old.",
-         "The Karoo region in the Western Cape is home to some of the best fossils of early dinosaurs. In fact, it is estimated that some 80% of the mammalian fossils found to date were found in the Karoo.",
-         "SA has three capital cities: Pretoria is the Executive Capital, Cape Town the Legislative Capital and Bloemfontein the judicial Capital.",
-         "Can you think of any other place in the world where two Nobel Peace Prize winners lived on the same street? Both Nelson Mandela and Archbishop Desmond Tutu had houses on Vilakazi Street in Soweto"
+         "One-third of Colombia is covered with the Amazon rainforest. The Amazon is the world’s largest rainforest, and you can visit year-round, either hike in the area or take a boat.Almost one million Indians live in the Amazon region comprising these countries: Brazil, Suriname, Guyana, Venezuela, Colombia, Peru, Bolivia, and Ecuador. The 400 different tribes have their own language, culture, and territory.",
+         "Colombia is a tropical country passing the equator on the south, so there aren’t four seasons. Temperatures are stable throughout the year, and the only thing that changes is a rainy season with a dry season. Some parts of Colombia have the same weather all year round, such as Medellin. It’s called The City of the Eternal Spring ",
+         "Liquid Rainbow, or the most beautiful river in the world, is in Colombia. It’s pretty hard to get to, requiring transportation by plane and then horseback ride or donkey.For most of the year, it’s a regular river and turns to rainbow colours between September and November. During this time, river plants change colour to red, and with the colours of river bedrock, water reflection creates River of Five Colours.",
+         "The Sierra Nevada de Santa Marta, in northern Colombia, is the world’s highest coastal mountain range. You can get from the sea level to 5,700 m elevation in only 42 km. Areas within this mountain range are the world’s most irreplaceable protected areas due to their endangered habitat",
+         "Colombia has 60 national parks, with Tayrona National Park being the most popular. You can swim in the Caribbean Sea with a view of the Sierra Nevada mountains",
+         "Wax palm is a national tree and symbol of Colombia. The Colombian government set up Los Nevados National Natural Park where Cocora Valley is a part. You can go hiking in Cocora Valley, the protected forest reserve, and be surrounded by 45-meter tall wax palms, the tallest palm trees on the planet",
+         "One of the rarest species of dolphins is found in Colombia. Pink dolphins are an endangered species",
+         "Colombia belongs to a group of 17 megadiverse countries. These countries have more than 5,000 biological species. It has one of the highest numbers of species by area in the world, including butterflies, amphibian species and has more bird species than Europe and North America combined.",
+         "Colombia is the only country in South America with access to the Pacific Ocean and the Caribbean Sea. The Pacific Coast is a dense jungle with the world’s most biodiversity. On the other hand, the Caribbean coastline is popular among travellers for its beaches.",
+         "There are 80 indigenous nations and 88 languages spoken in Colombia. While you mostly hear Spanish while visiting Colombia, you hear mostly Creole if you visit the Caribbean side.",
+         "Looking for a place to work? Go to Colombia. Colombians have the second most Bank Holidays globally, which are usually celebrated on Mondays. Who knows, maybe long weekends and balanced work and personal life is the secret to the happiest nation in the world.",
+         "There are only three countries where it is more likely to have a female boss instead of a man. In Colombia, 53% of bosses are women. Only one country has a more women bosses ratio – Jamaica, where 59 out of 100 bosses are women",
+         "Past Colombian president Juan Manuel Santos was awarded the Nobel Peace Prize for signing a deal with FARC (Revolutionary Armed Forces of Colombia) in 2016. This deal will help to end a 50-year guerrilla war in Colombia. Colombian Congress approved the agreement despite more than half of Colombians voting against it.",
+         "The ethnically diverse Colombia is a mix of indigenous descendants, Spanish, people from Africa, Europe, and the Middle East. There’s no one skin colour dominant in Colombia, and often you can’t tell if the person is Colombian or a visitor.",
+         "In Colombia, 99.2% of people speak Spanish compared to Spain, where 99% speak Spanish. Colombia is a country that has the second biggest ratio of Spanish-speaking people right after Mexico.",
+         "Gabriel Garcia Marquez wrote the most-sold novel in the Spanish language and won a Nobel Prize for literature. He was a great friend of Fidel Castro. Marquez was described as “the greatest Colombian who ever lived” at his funeral",
+         "Fernando Botero is the most famous Colombian artist, very well-known worldwide. His extravagant paintings and statues can be found in Botero Museum in Bogota or at Plaza Botero in Medellin. Plaza Botero is also part of the free walking tour in Medellin we participated in, as mentioned below under Medellin.",
+         "Talking about famous Colombians, the current most famous person from Colombia is probably Shakira. She is one of the most popular singers in the world, born in Barranquilla",
+         "Colombia is famous for its dancing. People say that Colombians have a natural talent, and they’re born dancers.There is actually only one dance that originated in the northern Colombian part: cumbia. All other famous dances such as samba or reggaeton were imported from the Caribbean islands. Colombia is great at adopting dances and making them popular",
+		 "The world’s biggest theatre festival Iberoamericana is held every other year in Bogota. You can see theatres from all over the world performing concerts, circus or arts for 17 days. Therefore Bogota is called the world’s theatre capital",
+		 "One of the most interesting facts about Colombia is that Bogota is the fourth highest capital globally (the first is La Paz in Bolivia at 3,869 m). It lies at an elevation of 2,640 meters above sea level. Within cities bigger than 3 million people, it is the highest. Half of the world’s population lives below 200 meters of elevation",
+		 "Bogota has the most extensive network (300km) of biking routes in South America. Every Sunday city of Bogota closes 75 km of public roads for motorized traffic and lets cyclists, roller-bladers, and runners use it without traffic restrictions.This event, called Ciclovia, is probably the biggest sports event happening every week. A car-free initiative that is spreading around the world – Mexico City, Paris, Singapore and many more are participating in a traffic-free environment for at least one day a month.",
+		 "One of the most interesting facts about Colombia is that Bogota is the fourth highest capital globally (the first is La Paz in Bolivia at 3,869 m). It lies at an elevation of 2,640 meters above sea level. Within cities bigger than 3 million people, it is the highest. Half of the world’s population lives below 200 meters of elevation",
+		 "Colombia is by far the biggest producer of emeralds. Emerald belongs to the most precious gemstones, and it’s estimated that every second emerald on the planet comes from Colombia. Emerald trade was a big contributor to civil problems that ended in 2016 with a peace deal between the government and FARC.",
+		 "Colombia is the biggest producer of Arabica coffee beans in the world. Counting all types of coffee, the country is the third biggest producer. Coffee plants require high altitudes, warm but not sunny weather to grow the best harvest. UNESCO rewarded the Colombian coffee cultural landscape as Heritage Site.",
+		 "Colombia has more than 400 fruit. They grow pineapple, banana, avocado, lime, and mango from well-known fruit. Colombia’s most exotic fruits are lulo, passion fruit, zapote, dragon fruit, borojo, curuba, gulupa, and golden berry",
+		 "The most famous food in Colombia is bandeja paisa, a mix of ground beef, chicharrones (fried pork), avocado, rice, beans, plantain, fried egg, arepas, and chorizo (sausage). It’s a very fulfilling meal you can find in any Colombian restaurant",
+		 "One of the most interesting facts about Colombia is that Bogota is the fourth highest capital globally (the first is La Paz in Bolivia at 3,869 m). It lies at an elevation of 2,640 meters above sea level. Within cities bigger than 3 million people, it is the highest. Half of the world’s population lives below 200 meters of elevation",
+		 "The national drink of Colombia is Aguardiente, translated to burning water. It’s a liquor made of sugarcane with anise flavour, and you drink it from a shot glass, just like you would vodka.",
+		 "The equator passes through Colombia, and therefore it gets dark t 6 pm year-round. Something that it’s quite hard to get used to. Especially when most people expect long light in summer",
+		 "One of the most interesting facts about Colombia is that Bogota is the fourth highest capital globally (the first is La Paz in Bolivia at 3,869 m). It lies at an elevation of 2,640 meters above sea level. Within cities bigger than 3 million people, it is the highest. Half of the world’s population lives below 200 meters of elevation",
+		 "Colombians are one of the biggest patriots; television and radio have to play the National anthem at 6 am and 6 pm every day. Maybe the government doesn’t want people to forget the lyrics.",
+		 "Alto de Letras is one of the most strenuous cycling climbs in the world. The 300 km route includes an 80 km incline leading from Mariquita at 468 metres above sea level to Paramo de Letras at 3,663 metres. No wonder Colombia has so many fantastic cyclists",
+		 "The national sport of Colombia is Tejo, throwing metal disks into pits covered with gunpowder and then exploding. While this is mostly alcohol friendly game, Colombia’s most popular sport is football (soccer)",
+		 "The Encanto animated movie from Disney telling the story of the Madrigals was based on Colombia. Encanto has received several accolades, winning Best Animated Film category at the Academy Awards, the Golden Globes, the BAFTAs, the Producers Guild of America, and the National Board of Review. Additionally, at the 94th Academy Awards, the track 'Dos Oruguitas' by Sebastián Yatra and the film's score were nominated for Best Original Song and Score, respectively. ",
+		 "With Colombia being one of the biggest producers of coffee in the world, no wonder every adult enjoys a cup or two a day. But did you know even children drink coffee? It might be diluted with milk, but adults drink the same coffee.",
+		 "Ciudad Perdida, or Lost City, is an ancient city built of mountainside terraces in the Sierra Nevada mountains. Archaeologists believe the city was founded 650 years earlier than Machu Picchu in Peru.This truly is one of the most interesting facts about Colombia – Machu Picchu is better known but younger than Ciudad Perdida. Tourist agencies now offer a Lost City jungle trek which usually takes 4-6 days, passes indigenous villages, and covers 70 km.",
+		 "The Carnaval of Negros y Blancas, translated to the Festival of Black and Whites, is celebrated in January every year. It’s a big festival, broadly popular, and shows how diverse the country is",
+		 "Colombia is the #1 Most Biodiverse Country in Birdlife #2 in plants, fish, and amphibians, #3 in palm trees and reptiles, and #4 in mammals. If you love nature this is the place to experience it.",
+		 "The United States alone orders 4 billion roses every year from Colombia (many for Valentine’s Day). Its position on the equator allows for some of the straightest stemmed roses in the world. Colombia is also home to more than 4,000 species of orchids. Fun Fact: Roses grow directly up to the sun. This means that to have the perfectly straight stemmed roses iconic for romantic gifts, they have to come from an equatorial country such as Colombia",
+		 "Colombia has 102 Different Indigenous Groups. Some Were Living in Colombia 14,000 Years Ago. The original locals. People were residing in Colombia long before Christopher Colombus (the namesake of Colombia) came ashore. 102 of these groups are still present in rural Colombia today.",
+		 "Cali is a city of Colombia in Southamerica. Is the 3rd city in the country for it population, economy and size. In a cultural aspect, Cali is well known by the Salsa music dance . Cali has had several important salsa music groups like Grupo Niche (with his director and very important music Jairo Varela), Guayacán and Son de Cali. In the city there are many sites where common and expert people can dance salsa all night. Among this sites are Tintindeo, La Topa Tolondra, Malamaña and La Caldera del Diablo",
+         "The highest waterfall of Colombia is La Chorrera Falls, a cascading waterfall 590 meters high.You can easily visit La Chorrera Falls from Bogota by taking a shuttle bus. The hike to the falls goes through the beautiful countryside but don’t expect anything marvellous, such as Angel Falls in Venezuela. The flow is very low, but on the other hand, it’s a beautiful nature experience because of the lack of crowd"
+		 
        ]
       }
   ]

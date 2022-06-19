@@ -8,34 +8,74 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Skolo</title>
+    <title>Barrilete</title>
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <!-- Bootstrap Font Icon CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <style>
+      html, body, h1, h2, h3, h4, h5 {font-family: "Open Sans", sans-serif}
+      body, html {
+            height: 100%;
+            margin: 0;
+          }
+      
+      
+          .bg {
+            position: absolute;
+            
+            /* Full height */
+            height: 100%;
+            width: 100%;
+         
+              
+            /* Center and scale the image nicely */
+            background-position: center;
+          background-repeat: repeat;
+          background-size: contain;
+          }
+      
+          .bg::before {
+          content: "";
+          position: absolute;
+          background-image: url("https://180grados.digital/wp-content/uploads/2022/03/Colombia-tercer-pais-mas-bello-del-mundo-segun-Forbes-1080x675.jpg");
+          top: 0px;
+          right: 0px;
+          bottom: 0px;
+          left: 0px;
+          z-index: -1;
+        opacity: .4;
+        background-size: contain;
+        background-repeat: repeat;
+      }
+         
+      </style>
 
   </head>
-  <body>
+  <body class="w3-theme-l5 text-center">
+    <div class="bg">
     <div class="container">
-      <h1>Welcome to Skolo Chatbot</h1>
-      <br>
-      <hr>
-      <br>
-
-        <div class="row">
+      <legend><h1><i class="bi bi-robot"></i> Learn Colombian Facts with Barrilete Chatbot</h1></legend>
+      <div class="row"><img src="https://media.giphy.com/media/WoLpfbqFQKS0gJTxcp/giphy-downsized-large.gif"  class="img-fluid" alt="funny GIF" height="15%" width="15%"></div>
+      <br>  
+      <div class="row">
           <div class="col-lg-9">
+               
             <input class="form-control" type="text" name="question" id="question">
           </div>
           <div class="col-lg-3">
-            <button class="btn btn-primary btn-block" id="submit-button">Send</button>
+            <button class="btn btn-info btn-block"  id="submit-button">Send</button>
           </div>
         </div>
         <br>
         <div class="row">
           <div class="col">
-            <p id="response"></p>
+            <p class="h5" id="response"></p>
           </div>
         </div>
 
+    </div>
     </div>
 
     <script src="/static/jquery.min.js" ></script>
@@ -59,7 +99,7 @@
                   question: $("#question").val()
               },
               success: function(result) {
-                $("#response").append("<br>Me: "+$("#question").val()+ "<br> Karabo: "+result.response);
+                $("#response").append("<br>Me: "+$("#question").val()+ "<br> Barrilete: "+result.response);
                 $("#question").val("")
               },
               error: function(result) {
