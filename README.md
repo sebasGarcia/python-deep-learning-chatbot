@@ -2,7 +2,7 @@
 
 ## Description
 
-A deep learning chatbot created with Python, Flask and deployed on Heroku. Barrilete AI chatbot can give you facts about Colombia (The template was modified from the original, as well as part of the code
+A deep learning chatbot created with Python, Flask and deployed on Heroku. Barrilete AI chatbot can give you facts about Colombia (The template was modified from the original, as well as part of the code since
 it originally gave facts about South Africa, Please find more info in the license file).
 The tutorial created by the original developer can also be found below and the link to the original repo is https://github.com/tatiblockchain/python-deep-learning-chatbot.
 
@@ -10,9 +10,9 @@ The tutorial created by the original developer can also be found below and the l
 ### Visuals
 
 Following are some screenshots of the application on Heroku
-![img1](https://github.com/sebasGarcia/python-deep-learning-chatbot\images\img1.JPG)
+![img1](https://github.com/sebasGarcia/python-deep-learning-chatbot/blob/main/images/img1.JPG)
 
-![img2](https://github.com/sebasGarcia/python-deep-learning-chatbot\images\img1.JPG)
+![img2](https://github.com/sebasGarcia/python-deep-learning-chatbot/blob/main/images/img2.JPG)
 ### Development tools
 
 The following software, platforms and tools were utilised during the execution of the project:
