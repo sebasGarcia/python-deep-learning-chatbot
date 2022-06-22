@@ -6,6 +6,12 @@ A deep learning chatbot created with Python, Flask and deployed on Heroku. Barri
 it originally gave facts about South Africa, Please find more info in the license file).
 The tutorial created by the original developer can also be found below and the link to the original repo is https://github.com/tatiblockchain/python-deep-learning-chatbot.
 
+The facts in the json file where taken from the following websites:
+
+* 44 Interesting Facts About Colombia That Will Surprise You. (2017, September 29). Travel with the Smile. https://travelwiththesmile.com/blog/interesting-facts-about-colombia/
+* Dillon, S. (2021, February 4). 35 Interesting Facts About Colombia (You Probably Didn’t Know). Other Way Round. https://www.otherwayround.travel/interesting-facts-about-colombia/
+
+
 
 ### Visuals
 
